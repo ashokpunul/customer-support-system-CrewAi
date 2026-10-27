@@ -1,0 +1,17 @@
+Build a customer support system made of three agents that run one after another
+(sequentially) using the CrewAI framework, When a query or task comes in, 
+the first agent answers it directly, 
+the second agent searches the web and answers, 
+and the third agent saves everything to a text file and returns both answers to the user.
+
+Agent Role
+1. Assistant - Answers the user's query directly from its own knowledge
+2. Web Search Assistant - Searches the web for the query and generates an answer from the results
+3. Entry Agent - Writes the query, answer 1, and answer 2 into a .txt file, and returns both answers to user
+
+Use the CrewAI framework with a sequential process so the agents run in order
+Create the three agents exactly as described above
+Show both answers (the Assistant answer and the Web Search answer) to the user
+The Entry Agent must save the query and both answers into a .txt file
+
+step by step process one step at a time.
